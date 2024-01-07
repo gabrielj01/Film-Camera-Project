@@ -46,4 +46,7 @@ table, td, th{
     border-collapse: collapse;
 }
 
+table>caption {
+    border: 1px groove ;
+}
 
