@@ -33,27 +33,64 @@ img {
     border-radius: 7%;
 }
 
-table {
-    width: 100%;
+.cameras img {
+    width: 50%;
 }
 
-td {
+#more-info img{width: 5%;}
+#buy img{width: 10%;}
+
+
+
+table.footer {
+    width: 100%;
+
+}
+
+.footer th,
+table.footer {
+    border: 2px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    background-color: beige;
+    color: rgb(16, 89, 0);
+}
+
+
+
+table.cam-types {
+    width: 70%;
+    margin: auto;
+}
+
+.cam-types th,
+.cam-types td,
+table.cam-types {
+    border: 2px solid bisque;
+    border-collapse: collapse;
     text-align: center;
 }
 
-table,
-td,
-th {
-    border: 1px solid rgb(244, 164, 66);
+.cam-types thead {
+    background-color: rgb(45, 127, 2);
+    color: black;
+}
+
+table.roll-type {
+    width: 50%;
+    margin: auto;
+
+}
+
+.roll-type th,
+.roll-type td,
+table.roll-type {
+    border: 2px solid rgb(45, 127, 2);
     border-collapse: collapse;
+    text-align: center;
 }
 
-table>caption {
-    border: 1px groove bisque;
-}
-
-tr:nth-child(even) {
-    background-image: url(https://hips.hearstapps.com/hmg-prod/images/gettyimages-84947670-1525186388.jpg?crop=1xw:1xh;center,top&resize=980:*);
-    background-size: auto;
-    background-position: 15% 75%;
+.roll-type th {
+    background-color: bisque;
+    color: black;
 }
