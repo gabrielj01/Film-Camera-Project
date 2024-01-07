@@ -48,7 +48,7 @@ th {
     border-collapse: collapse;
 }
 
-table>caption {
+table > caption {
     border: 1px groove bisque;
 }
 
