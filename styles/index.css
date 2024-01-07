@@ -32,3 +32,18 @@ img {
     width: 80%;
     border-radius: 7%;
 }
+
+table{
+width: 100%;
+}
+
+td{
+    text-align: center;
+}
+
+table, td, th{
+    border: 1px solid rgb(244, 164, 66);
+    border-collapse: collapse;
+}
+
+
