@@ -72,8 +72,9 @@ table.cam-types {
 }
 
 .cam-types thead {
-    background-color: rgb(45, 127, 2);
+    border: 2px solid rgb(45, 127, 2);
     color: black;
+    border-collapse: collapse;
 }
 
 table.roll-type {
@@ -82,24 +83,22 @@ table.roll-type {
 
 }
 
-.roll-type th,
-.roll-type td,
-table.roll-type {
-    border: 2px solid rgb(45, 127, 2);
+.roll-type th, .roll-type td, table.roll-type {
+    border: 2px solid bisque;
     border-collapse: collapse;
     text-align: center;
 }
 
 table > caption {
     border: 1px groove bisque;
+    background-color: bisque;
 }
 
 tr:nth-child(even) {
-    background-image: url(https://hips.hearstapps.com/hmg-prod/images/gettyimages-84947670-1525186388.jpg?crop=1xw:1xh;center,top&resize=980:*);
-    background-size: auto;
-    background-position: 15% 75%;
-}
-.roll-type th {
     background-color: bisque;
+}
+
+.roll-type th {
+    color: bisque;
     color: black;
 }
