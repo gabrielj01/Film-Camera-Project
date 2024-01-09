@@ -37,8 +37,13 @@ img {
     width: 50%;
 }
 
-#more-info img{width: 5%;}
-#buy img{width: 10%;}
+#more-info img {
+    width: 5%;
+}
+
+#buy img {
+    width: 10%;
+}
 
 
 
@@ -83,13 +88,15 @@ table.roll-type {
 
 }
 
-.roll-type th, .roll-type td, table.roll-type {
+.roll-type th,
+.roll-type td,
+table.roll-type {
     border: 2px solid bisque;
     border-collapse: collapse;
     text-align: center;
 }
 
-table > caption {
+table>caption {
     border: 1px groove bisque;
     background-color: bisque;
 }
@@ -103,3 +110,6 @@ tr:nth-child(even) {
     color: black;
 }
 
+button {
+    background-color: ;
+}
