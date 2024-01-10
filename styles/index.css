@@ -110,6 +110,6 @@ tr:nth-child(even) {
     color: black;
 }
 
-button {
-    
+button{
+    width: 5%;
 }
