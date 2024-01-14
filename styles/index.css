@@ -41,24 +41,21 @@ img {
     width: 5%;
 }
 
+
 #buy img {
     width: 10%;
 }
 
-
-
-table.footer {
-    width: 100%;
-
-}
-
-.footer th,
-table.footer {
-    border: 2px solid black;
+table.nav,
+.nav th {
+    border: 1px solid black;
     border-collapse: collapse;
     text-align: center;
-    background-color: beige;
-    color: rgb(16, 89, 0);
+    background-color: bisque;
+
+}
+table.nav{
+    width: 100%;
 }
 
 
@@ -76,11 +73,6 @@ table.cam-types {
     text-align: center;
 }
 
-.cam-types thead {
-    border: 2px solid rgb(45, 127, 2);
-    color: black;
-    border-collapse: collapse;
-}
 
 table.roll-type {
     width: 50%;
@@ -91,18 +83,25 @@ table.roll-type {
 .roll-type th,
 .roll-type td,
 table.roll-type {
-    border: 2px solid bisque;
+    border: 2px solid blueviolet;
     border-collapse: collapse;
     text-align: center;
+
 }
 
-table>caption {
-    border: 1px groove bisque;
+
+.roll-type caption {
+    border: 1px groove blueviolet;
+    background-color: blueviolet;
+    color: white;
+}
+
+.cam-types tr:nth-child(even) {
     background-color: bisque;
 }
 
-tr:nth-child(even) {
-    background-color: bisque;
+.roll-type tr:nth-child(even) {
+    background-color: blueviolet;
 }
 
 .roll-type th {
@@ -110,6 +109,6 @@ tr:nth-child(even) {
     color: black;
 }
 
-button{
+button {
     width: 5%;
 }
