@@ -28,4 +28,10 @@ ol {
 
 li {
     list-style: none;
+    text-align: center;    
+}
+
+.list {
+    text-decoration: underline;
+    font-weight: bold;
 }
