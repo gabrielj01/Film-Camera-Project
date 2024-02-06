@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.grid{
+    display: grid;
+}
+
+.form-login-grid{
+    grid-template-columns: 1fr;
+    gap: 10px;
+    text-align: center;
+}
+
+.form-input label, .form-input input{
+    display: block;
+}
+
+.favorites-grid{
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+form{
+    background-color: bisque ;
+}
+h1{
+    text-align: center;
+}
