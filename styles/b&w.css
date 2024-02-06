@@ -1,16 +1,21 @@
 .grid{
     display: grid;
 }
+.grid-item{
+    text-align: center;
+    border: 1px solid black;
+}
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
 h1{
-    background-color: bisque;
-    text-align: center;
+    
+    
 }
 #hero video{
-    width: 80%;
+    width: 65%;
+    border-radius: 5%;
 }
 p {
     text-align: center;
