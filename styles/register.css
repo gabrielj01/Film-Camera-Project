@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.grid{
+    display: grid;
+}
+
+.form-register-grid{
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.form-input label, .form-input input{
+    display: block;
+}
+
+form{
+    background-color: bisque ;
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    font-size: larger;
+    font-style: italic;
+}
