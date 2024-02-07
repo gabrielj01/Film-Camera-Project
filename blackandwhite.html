@@ -5,21 +5,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>B&W</title>
-    <link rel="stylesheet" href="./styles/b&w.css">
+    <link rel="stylesheet" href="./styles/b&w_back.css">
 </head>
 
-<body id="Top" class="grid">
-    <header>
-        <h1>B&W</h1>
+<body id="Top" class="grid grid-sized-cols grid-row-size justify-center">
+    <header id="header" class="grid-header" >
+        <nav>
+            <ul>
+                <li><a href="index.html"><img src="./images-logos/gd-high-resolution-logo-black-transparent.png" alt="logo"  class="logo"></a></li>
+                <li>B&W</li>
+            </ul>
+        </nav>
     </header>
     <section id="hero">
         <div class="grid-item">
-<video autoplay loop preload="auto">
-    <source src="./assets/production_id_4824120 (2160p).mp4" type="video/mp4">
-</video>
-</div>
+            <video autoplay loop preload="auto">
+                <source src="./assets/production_id_4824120 (2160p).mp4" type="video/mp4">
+            </video>
+        </div>
     </section>
-    <hr>
+    <!-- <hr>
     <h3>Introduction</h3>
     <p>
         Black and white photography, often abbreviated as B&W, is a form of photography that captures images without
@@ -44,20 +49,22 @@
         emotion, and a sense of timelessness. <br> Many photographers continue to use black and white film or simulate
         the
         look digitally to create striking and evocative images.
-    </p>
-    <h3>Gallery</h3>
-    <img src="./images(b&w)/thiailand b&w.JPEG" alt="sunsetthai">
-    <br>
-    <img src="./images(b&w)/mushroom cloud.jpeg" alt="musroomcloud">
-    <br>
-    <img src="./images(b&w)/nyc.jpeg" alt="ny">
-    <br>
-    <img src="./images(b&w)/olympic black.jpeg" alt="olympic">
-    <br>
-    <img src="./images(b&w)/vietnam b&w.JPEG" alt="hanoi">
-
-    <button><a href="#top"><img src="./images/up aroow.png" alt="xsx"></a></button>
-    <footer>
+    </p> -->
+    <main>
+        <h3>Gallery</h3>
+        <div id="main" class="img-grid">
+        <img src="./images(b&w)/thiailand b&w.JPEG" alt="sunsetthai" class="grid-item">
+        
+        <img src="./images(b&w)/mushroom cloud.jpeg" alt="musroomcloud" class="grid-item">
+        
+        <img src="./images(b&w)/nyc.jpeg" alt="ny" class="grid-item">
+        
+        <img src="./images(b&w)/olympic black.jpeg" alt="olympic" class="grid-item">
+        
+        <img src="./images(b&w)/vietnam b&w.JPEG" alt="hanoi" class="grid-item">
+    </div>
+    </main>
+    <footer id="footer">
         © 2024. All rights reserved. <br> This site was created by Gabriel And Dekel
     </footer>
 </body>

@@ -1,0 +1,44 @@
+.grid{
+    display: grid;
+    /*row-gap: 10px*/
+    gap: 10px;
+    width: 100%;
+}
+
+.body{
+    display:grid  ;
+    grid-template-columns: repeat(1fr, 8);
+}
+
+.grid-sized-cols{
+    grid-template-columns: 90px 50% 60px auto;
+}
+
+.grid-row-size{
+    grid-template-rows: 50px 100px;
+}
+    
+.justify-center{
+    justify-content: center;
+}
+#hero video{
+    width: 65%;
+    border-radius: 5%;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    border-radius: 7%;
+}
+
+button {
+    width: 5%;
+}
+
+footer{
+    text-align: center;
+    font-style: italic;
+}
