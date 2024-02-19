@@ -1,44 +1,136 @@
-body{
-    margin: 0;
-    padding: 0;
-}
-
-.grid{
-    display: grid;
-}
-
-.form-login-grid{
-    grid-template-columns: 1fr;
-    gap: 10px;
+*{
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+    }
+    
+    body {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    min-height: 100vh; 
+    background-image: url(/assets/pexels-jessica-lewis-🦋-thepaintedsquare-593324.jpg); 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-size: cover;
+    }
+    
+    section, .bigbox{
+    position: relative; 
+    max-width: 400px;
+    background: rgb(212,163,115);
+    background: radial-gradient(circle, rgba(212,163,115,1) 0%, rgba(255,222,149,1) 100%);    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    backdrop-filter: blur (550px);
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    padding: 2rem 3rem;
+    }
+    
+    h1{
+    font-size: 2rem;
+    color: black;
     text-align: center;
-}
+    }
+    
+    .inputbox {
+    position: relative;
+    margin: 30px 0; 
+    max-width: 310px;
+    border-bottom: 2px solid color #fff
+    }
 
-.form-input label, .form-input input{
-    display: block;
-}
-
-.favorites-grid{
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 10px;
-}
-
-form{
+    .inputbox label{
+    position: absolute;
+    top : 50%;
+    left : 5px;
+    transform: translateY(-50%);
+    color: color #fff;
+    font-size: 1rem; 
+    pointer-events: none;
+    transition: all 0.5s ease-in-out;
+    }
+    
+    Input:focus label, input:valid label{
+    Top : -5px
+    }
+    
+    .inputbox input { 
+    width: 100%; 
+    height: 60px;
+    background: transparent;
+    border: none; 
+    outline: none; 
+    font-size: 1rem;padding: 0 35px 0 5px; 
+    color:#fff
+    }
+    
+    .inputbox ion-icon { 
+    position: absolute;
+    right: 8px;
+    color: #fff;
+    font-size: 1.2rem; 
+    top: 20px;
+    }
+    
+    .forget {margin: 35px 0; 
+    font-size: 0.85rem;
+    color: #fff;
+    display : flex;
+    justify-content: space-between;
+    }
+    
+    .forget label { 
+    display: flex;
+    align-items: center;
+    }
+    
+    .forget label input {
+    margin-right: 3px;
+    }
+    
+    .forget a {
+    color: black;
+    text-decoration: none; 
+    font-weight: 600;
+    }
+    
+    .forget a:hover {
+        text-decoration: underline;
+    }
+    
+    Button{
+    width: 100%; 
+    height: 40px; 
+    border-radius: 40px; 
+    background-color: rgb(255,255,255, 1);
+    border: none; 
+    outline: none;
+    cursor: pointer; 
+    font-size: 1rem; 
+    font-weight: 600;
+    transition: all 0.4s ease;
+    }
+    
+    button:hover {
+    background-color: rgb(255, 255,255, 0.5);
+    }
+    
+    .register {
+    font-size: 0.9rem;
+    color: color #fff;
     text-align: center;
-    background-color: bisque ;
-}
-h1{
-    text-align: center;
-}
-input[type="submit"]{
-    background-color: #4CAF50;
-    border: none;
-    color: white;
-    padding: 15px 15px;
-    text-decoration: none;
-    margin: 4px 2px;
-    cursor: pointer;
-}
-footer{
-    text-align: center;
-    font-style: italic;
-}
+    margin : 25px 0 10px;
+    }
+    
+    .register p a {
+    text-decoration: underline;
+    color:black;
+    font-weight: 600;
+    }
+    
+    .register p a:hover {
+    Text-decoration: underline;
+    }
