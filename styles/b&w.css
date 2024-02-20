@@ -44,9 +44,11 @@ ul {
 
 .img-grid .grid-item {
     width: 100%;
-    border: 1px solid black;
-    
 }
+.img-grid .grid-item {
+    width: 100%;
+}
+
 
 
 #header {
