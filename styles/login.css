@@ -114,10 +114,12 @@
     font-size: 1rem; 
     font-weight: 600;
     transition: all 0.4s ease;
+
     }
     
     button:hover {
     background-color: bisque;
+    box-shadow: 0 3px 3px 3px grey;
     }
     
     .register {
