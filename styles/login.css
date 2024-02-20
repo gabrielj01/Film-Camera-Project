@@ -138,3 +138,8 @@
     .register p a:hover {
     Text-decoration: underline;
     }
+
+    ::selection{
+        color: bisque;
+        background-color: grey;
+    }
