@@ -1,7 +1,7 @@
 body {
     font-family: "Poppins", sans-serif;
-  font-weight: 600;
-  font-style: normal;
+    font-weight: 600;
+    font-style: normal;
 }
 
 .body {
@@ -13,10 +13,10 @@ body {
     ;
 }
 
-.grid {
+/* .grid {
     display: grid;
     gap: 10px;
-}
+} */
 
 .grid-header {
     display: grid;
@@ -27,27 +27,41 @@ body {
 .logo {
     width: 10%;
 }
-.title{
+
+.title {
     text-decoration: solid;
     font-size: 130%;
     margin-top: 10px;
 }
+
+
 ul {
     list-style-type: none;
 }
 
 .img-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
 
 }
 
-.img-grid .grid-item {
-    width: 100%;
+
+
+.zoom {
+    transition: transform .2s;
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 20%;
+    box-shadow: 2px 2px 2px 2px gray;
 }
-.img-grid .grid-item {
-    width: 100%;
+
+.zoom:hover {
+    transform: scale(1.2);
+    border-radius: 10%;
+    /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
+
+
 
 
 
@@ -66,6 +80,7 @@ ul {
 
 #footer {
     grid-area: footer;
+    text-align: center;
 }
 
 #hero video {
@@ -77,4 +92,5 @@ ul {
 
 h3 {
     text-align: center;
+    font-size: 250%;
 }
