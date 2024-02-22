@@ -1,0 +1,33 @@
+h3 {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 25px;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    border-radius: 7%;
+}
+
+.grid .more_info{
+    display: grid;
+    /*row-gap: 10px*/
+    gap: 10px;
+    width: 100%;
+    width: 5%;
+}
+
+.buy {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
