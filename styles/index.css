@@ -24,27 +24,29 @@ body {
     grid-area: header;
 }
 
+
 #hero {
     grid-area: hero;
     text-align: center;
 }
 
-.container {
+/* .container {
     position: relative;
     text-align: center;
     color: white;
-}
+} */
 
-.container img {
+/* .container img {
     width: 70%;
 }
 
-.top-left {
+.top-center {
     position: absolute;
-    top: 8px;
-    left: 35%;
-  }
-  
+    top: 6%;
+    left: 45%;
+    width: 10%;
+} */
+
 
 h2 {
     text-align: left;
@@ -90,6 +92,7 @@ img {
     width: 10%;
 }
 
+
 table.nav,
 .nav th {
     /* border: 1px solid black; */
@@ -99,7 +102,6 @@ table.nav,
 
 .nav th {
     border-radius: 10px;
-
 
 }
 
@@ -116,7 +118,6 @@ table.nav,
 table.nav {
     width: 100%;
 }
-
 
 
 table.cam-types {
