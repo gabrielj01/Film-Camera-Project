@@ -143,8 +143,21 @@
         color: bisque;
         background-color: grey;
     }
+    .register img {
+        width: 15%;
+        border-radius: 10%;
+        border: 1px solid black;
+        margin-bottom: 6px;
+        margin-right: 6px;
+        padding: 4px;
+    }
+    
+    .register img:hover {
+        box-shadow: 0 0 0 0 black;
+        box-shadow: 0 6px 6px  black;
+        border-radius: 10%;
+    }
     footer{
         text-align: center;
-        font-style: italic;
     }
     

@@ -4,14 +4,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login Page</title>
-    <link rel="stylesheet" href="./styles/login.css">
+    <title>Register</title>
+    <link rel="stylesheet" href="./styles/register1.css">
 </head>
 
 <body>
     <section class="bigbox">
         <form>
-            <h1>Login</h1>
+            <h1>Register</h1>
+            <div class="inputbox">
+                <ion-icon name="mail-outline"></ion-icon>
+                <input type="username" placeholder="Username" required>
+                <!-- <label for="">Email</label> -->
+            </div>
             <div class="inputbox">
                 <ion-icon name="mail-outline"></ion-icon>
                 <input type="email" placeholder="Email" required>
@@ -22,15 +27,17 @@
                 <input type="password" placeholder="Password">
                 <!-- <label for="">Password</label> -->
             </div>
-            <div class="forget">
-                <label for=""><input type="checkbox">Remember Me</label>
-                <a href="#">Forgot Password?</a>
+            <div class="inputbox">
+                <ion-icon name="lock-closed-outline"></ion-icon>
+                <input type="password" placeholder="Confirm Password">
+                <!-- <label for="">Password</label> -->
             </div>
-            <button>Log in</button>
-            <div class="register">
-                <p> Don't have a account ? <a href="./register1.html">Register</a></p>
+            
+            <button>Register</button>
+            <div class="login">
+                <p> Have an account ? <a href="./login.html">Login</a></p>
             </div>
-            <div class="register">
+            <div class="login img">
                 <p><a href="./index.html"><img src="./images-logos/gd-logo-black.png" alt=""></a></p>
             </div>
             <div>

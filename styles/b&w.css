@@ -48,7 +48,7 @@ ul {
 
 
 .zoom {
-    transition: transform .2s;
+    transition: transform .4s;
     width: 90%;
     margin: 0 auto;
     border-radius: 20%;
@@ -56,8 +56,8 @@ ul {
 }
 
 .zoom:hover {
-    transform: scale(1.2);
-    border-radius: 10%;
+    transform: scale(1.1);
+    border-radius: 20%;
     /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 

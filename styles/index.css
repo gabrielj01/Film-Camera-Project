@@ -2,10 +2,14 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-h1 {
-    background-color: bisque;
-    text-align: center;
+.grid {
+    display: grid;
 }
+
+.logo img {
+    width: 50%;
+}
+
 
 h2 {
     text-align: left;
@@ -47,15 +51,34 @@ img {
     width: 10%;
 }
 
+.logo {
+    width: 10%;
+}
+
 table.nav,
 .nav th {
-    border: 1px solid black;
-    border-collapse: collapse;
+    /* border: 1px solid black; */
+    border-collapse: separate;
     text-align: center;
-    background-color: bisque;
+}
+
+.nav th {
+    border-radius: 10px;
+
 
 }
-table.nav{
+
+.nav th a {
+    color: rgb(87, 87, 87);
+    text-decoration-line: none;
+
+}
+
+.nav th a:hover {
+    color: black;
+}
+
+table.nav {
     width: 100%;
 }
 
@@ -114,8 +137,7 @@ button {
     width: 5%;
 }
 
-footer{
+footer {
     text-align: center;
     font-style: italic;
 }
-
