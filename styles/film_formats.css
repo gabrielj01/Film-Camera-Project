@@ -45,3 +45,40 @@ footer{
     text-align: center;
     font-style: italic;
 }
+
+
+#header {
+    grid-area: header;
+}
+   
+img{
+    width: 5%;
+    display: block;
+    margin-right: auto;
+}
+
+table.nav,
+.nav th {
+    /* border: 1px solid black; */
+    border-collapse: separate;
+    text-align: center;
+}
+
+.nav th {
+    border-radius: 10px;
+
+}
+
+.nav th a {
+    color: rgb(87, 87, 87);
+    text-decoration-line: none;
+
+}
+
+.nav th a:hover {
+    color: black;
+}
+
+table.nav {
+    width: 100%;
+}
