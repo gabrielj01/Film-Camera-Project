@@ -1,5 +1,7 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
 }
 
 /* .grid {
@@ -13,9 +15,11 @@ body {
         'footer footer footer footer footer'
     ;
 }
+
 .logo img {
     width: 30%;
 }
+
 #header {
     grid-area: header;
 }
@@ -24,6 +28,23 @@ body {
     grid-area: hero;
     text-align: center;
 }
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.container img {
+    width: 70%;
+}
+
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 35%;
+  }
+  
 
 h2 {
     text-align: left;
@@ -48,7 +69,7 @@ img {
     margin-left: auto;
     margin-right: auto;
     width: 80%;
-    border-radius: 7%;
+    /* border-radius: 7%; */
 }
 
 
