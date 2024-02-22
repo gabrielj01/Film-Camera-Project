@@ -2,14 +2,28 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.grid {
+/* .grid {
     display: grid;
+} */
+.body {
+    grid-template-areas:
+        'header header header header header'
+        'hero hero hero hero hero'
+        'main main main main main'
+        'footer footer footer footer footer'
+    ;
 }
-
 .logo img {
-    width: 50%;
+    width: 30%;
+}
+#header {
+    grid-area: header;
 }
 
+#hero {
+    grid-area: hero;
+    text-align: center;
+}
 
 h2 {
     text-align: left;
