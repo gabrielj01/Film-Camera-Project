@@ -84,3 +84,8 @@ table.nav,
 table.nav {
     width: 100%;
 }
+
+footer {
+    text-align: center;
+    font-style: italic;
+}
