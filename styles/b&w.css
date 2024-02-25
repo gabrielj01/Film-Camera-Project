@@ -13,6 +13,25 @@ body {
     ;
 }
 
+
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: bisque;
+
+}
+
+.nav th a {
+    color: rgb(87, 87, 87);
+    text-decoration-line: none;
+
+}
+
+.nav th a:hover {
+    color: black;
+}
+
 /* .grid {
     display: grid;
     gap: 10px;
@@ -27,6 +46,14 @@ body {
 .logo {
     width: 10%;
 }
+
+img{
+    width: 30%;
+}
+
+
+
+
 
 .title {
     text-decoration: solid;
