@@ -61,9 +61,9 @@ img {
     top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 100px;
-    color: aliceblue;
-    text-shadow: 5px 5px 5px black;
+    font-size: 80px;
+    color: bisque;
+    text-shadow: 5px 5px 5px rgb(208, 13, 13);
 
 }
 
@@ -74,6 +74,11 @@ img {
     margin-top: 10px;
 }
 
+.gallery {
+    color: bisque;
+    text-shadow: 3px 3px 3px rgb(208, 13, 13);
+
+}
 
 ul {
     list-style-type: none;
