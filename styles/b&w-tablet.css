@@ -1,0 +1,7 @@
+@media screen and (width < 1000px) {
+    body {
+        background-color: red;
+    }
+
+    
+}

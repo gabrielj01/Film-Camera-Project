@@ -130,54 +130,7 @@ table.nav {
 }
 
 
-table.cam-types {
-    width: 70%;
-    margin: auto;
-}
 
-.cam-types th,
-.cam-types td,
-table.cam-types {
-    border: 2px solid bisque;
-    border-collapse: collapse;
-    text-align: center;
-}
-
-
-table.roll-type {
-    width: 50%;
-    margin: auto;
-
-}
-
-.roll-type th,
-.roll-type td,
-table.roll-type {
-    border: 2px solid blueviolet;
-    border-collapse: collapse;
-    text-align: center;
-
-}
-
-
-.roll-type caption {
-    border: 1px groove blueviolet;
-    background-color: blueviolet;
-    color: white;
-}
-
-.cam-types tr:nth-child(even) {
-    background-color: bisque;
-}
-
-.roll-type tr:nth-child(even) {
-    background-color: blueviolet;
-}
-
-.roll-type th {
-    color: bisque;
-    color: black;
-}
 
 button {
     width: 5%;
@@ -185,6 +138,6 @@ button {
 
 footer {
     text-align: center;
-    font-style: italic;
+    font-style: bold;
 }
 
