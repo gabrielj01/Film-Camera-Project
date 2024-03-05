@@ -5,126 +5,90 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Color Negative</title>
+    <link rel="icon" type="image/x-icon" href="./images-logos/gd-logo-black.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./styles/color_negative.css">
 </head>
 
-<body>
+<body id="Top" class="grid grid-sized-cols grid-row-size justify-center body">
     <div class="header">
         <header class="grid">
             <nav class="ccsticky-nav">
-            <table class="nav">
-                <tr>
-                    <th class="logo grid-item"><a href="./index.html"><img src="./images-logos/gd-logo-black.png" alt=""></a></th>
-                    <th class="grid-item"><a href="./register1.html">Register</a></th>
-                    <th class="grid-item"><a href="./login.html">Login</a></th>
-                    <th class="grid-item"><a href="./more_info.html">More info</a></th>
-                    <th class="grid-item"><a href="./gallery.html">Gallery</a></th>
-                    <th class="grid-item"><a href="./contact_us.html">Contact us></a></th>
-                </tr>
-            </table>
-        </nav>
-        <hr>
+                <table class="nav">
+                    <tr>
+                        <th class="logo grid-item"><a href="./index.html"><img src="./images-logos/gd-logo-black.png"
+                                    alt=""></a></th>
+                        <th class="grid-item"><a href="./register1.html">Register</a></th>
+                        <th class="grid-item"><a href="./login.html">Login</a></th>
+                        <th class="grid-item"><a href="./more_info.html">More info</a></th>
+                        <th class="grid-item"><a href="./gallery.html">Gallery</a></th>
+                        <th class="grid-item"><a href="./contact_us.html">Contact us></a></th>
+                    </tr>
+                </table>
+            </nav>
+            <hr>
         </header>
+    </div>
+    <section id="hero">
+        <div class="grid-item container">
+            <video autoplay loop muted preload="auto">
+                <source src="./assets/color_negative_hero.mp4" type="video/mp4">
+            </video>
+            <div class="text-on-vid">Color Negative</div>
         </div>
-    <h1>Color Negative</h1>
-    <hr>
-    <div class="grid intro"></div>
-        <p>Color negative film is a popular medium in the world of analog photography, known for its versatility and
-            widespread use. <br> Here's a comprehensive guide to learn about this essentially part of the photographic film
-            !</p>
-        <h2>Here is a list of things we are going to talk about on this page. </h2>
-        <ol>
-            <li>Composition</li>
-            <li>Color Balance</li>
-            <li>Grain Structure</li>
-            <li>Wide Exposure Latitude</li>
-            <li>Processing</li>
-            <li>Archival Stability</li>
-        </ol>
-    </div> 
+    </section>
+    <!-- <hr>
+    <h3>Introduction</h3>
+    <p>
+        Black and white photography, often abbreviated as B&W, is a form of photography that captures images without
+        recording colors. <br> Instead, it relies solely on shades of gray, ranging from pure black to pure white. <br>
+        Black and
+        white photography has a timeless and classic quality, and it can be used to emphasize composition, form, and
+        contrast.
+    </p>
+    <h3>Film Selection</h3>
+    <p>
+        <strong> Film Type:</strong> Black and white film comes in various types and sensitivities (ISO/ASA). Different
+        films offer different grain structures, contrast levels, and tonal qualities. <br>
+        <strong>Loading Film:</strong> In analog (film) photography, the photographer loads a roll of black and white
+        film into the
+        camera before taking pictures.
+    </p>
+    <h3>Short Brief</h3>
+    <p>
+        Black and white photography allows for a focus on the interplay of light and shadow, shapes, and textures
+        without the distraction of color. <br> It has a rich history and is still appreciated for its ability to convey
+        mood,
+        emotion, and a sense of timelessness. <br> Many photographers continue to use black and white film or simulate
+        the
+        look digitally to create striking and evocative images.
+    </p> -->
+    <main>
+        <h3 class="gallery">Gallery</h3>
+        <div id="main" class="img-grid">
+            <img src="./images-color-negative/matthew-moloney-OAzh2bBN110-unsplash.jpg" alt="sunsetthai"
+                class="grid-item zoom">
 
-    <div class="grid composition">
-        <h3> Composition </h3>
-            <p> Color negative film consists of multiple layers of emulsion that react to different wavelengths of light. <br>
-                Layers typically include blue-sensitive, green-sensitive, and red-sensitive emulsion.
-            </p>
-    </div>
+            <img src="./images-color-negative/pexels-abhishek-sanga-7121296.jpg" alt="musroomcloud"
+                class="grid-item zoom">
 
-    <div class="grid color-balance">   
-        <h3> Color Balance</h3>
-            <p>Color negative film is designed to produce a negative image where colors are inverted. <br>
-                The film has an orange mask that helps in color correction during the printing process.
-            </p>
-    </div> 
+            <img src="./images-color-negative/pexels-andreea-ch-3610212.jpg" alt="ny" class="grid-item zoom">
 
-    <div class="grid grain-structure">
-        <h3>Grain Structure</h3>
-        <p>Exhibits a characteristic grain structure, with finer grains in lower ISO films and more noticeable grains in
-            higher ISO films. <br>
-            Grain can contribute to the aesthetic appeal of the final image.
-        </p>
-    </div> 
+            <img src="./images-color-negative/pexels-inga-seliverstova-3394288.jpg" alt="olympic"
+                class="grid-item zoom">
 
-    <div class="grid wide-exposure">
-        <h3>Wide Exposure Latitude</h3>
-        <p>Color negative film has a forgiving exposure latitude, allowing for some flexibility in exposure settings. <br>
-                This makes it suitable for photographers learning the craft
-        </p>
-    </div> 
+            <img src="./images-color-negative/pexels-lorence-lozano-3053844.jpg" alt="hanoi" class="grid-item zoom">
 
-    <div class="grid processing">
-        <h3>Processing</h3>
-        <p>Requires color negative processing, involving developing, stopping, fixing, and washing stages. <br>
-            C-41 is the standard chemical process for color negative film.
-        </p>
-    </div> 
-
-    <div class="grid archival-stability">
-        <h3>Archival Stability</h3>
-            <p>Color negative film is known for its relatively good archival stability when stored properly.</p>
-    </div>
-
-    <div class="grid list">
-        <ol>
-            <li>Popular Color Negative Films 
-                <ul>Kodak Portra (e.g., Portra 160, Portra 400, Portra 800)</ul>
-                <ul>Fujifilm Pro 400H</ul>
-                <ul>Agfa Vista</ul>
-                <ul>Lomography Color Negative (e.g., Lomo CN 100, Lomo CN 400)</ul>
-            </li>
-            <br> <br>
-            <li>Developing Kits
-                <ul>C-41 Color Negative Film Developing Kit (Various brands available)</ul>
-                <ul>Film processing chemicals for home development.</ul>
-            </li>
-            <br> <br>
-            <li>Storage Solutions
-                <ul>Archival sleeves and containers for storing exposed and unexposed film.</ul>
-                <ul>Tips on proper temperature and humidity conditions for long-term storage.</ul>
-            </li>
-            <br> <br>
-            <li>Tips for Shooting Color Negative Film
-                <ul>Metering techniques for different lighting conditions.</ul>
-                <ul>Experimenting with overexposure and underexposure for creative effects.</ul>
-                <ul>Recommendations for scanning and digitizing color negative images.</ul>
-            </li>
-            <br> <br>
-            <li>Community Resources
-                <ul>Links to online forums and communities where photographers discuss their experiences with color negative
-                    film.</ul>
-                <ul>Sharing galleries of photos taken with color negative film.</ul>
-            </li>
-            <br> <br>
-            <li>Troubleshooting Guide
-                <ul>Common issues during shooting and developing and how to troubleshoot them.</ul>
-            </li>
-        </ol>
-    </div> 
-    
-    <footer>
+            <img src="./images-color-negative/pexels-luriko-yamaguchi-2061678.jpg" alt="hanoi" class="grid-item zoom">
+        </div>
+    </main>
+    <footer id="footer">
         © 2024. All rights reserved. <br> This site was created by Gabriel And Dekel
     </footer>
-
 </body>
 
 </html>
