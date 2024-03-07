@@ -14,6 +14,7 @@
     background-repeat: no-repeat; 
     background-position: center; 
     background-size: cover;
+    
     }
     
     section, .bigbox{
@@ -43,12 +44,22 @@
     border-bottom: 2px solid bisque;
     }
 
+   
     .textarea{
-        width: 10;
-        color: #FFF;
-        background: transparent;
-        border: none;
-        outline: none;
+        color: black;
+        background-color: transparent;
+        border: 1px solid bisque;
+
+    }
+
+    ::placeholder{
+        color: bisque;
+    }
+
+    .textarea::placeholder{
+        font-size: large;
+        text-align: center; 
+        line-height: 7;
     }
 
     .inputbox label{
