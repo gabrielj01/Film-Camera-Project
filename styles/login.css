@@ -80,7 +80,7 @@
     .forget {margin: 35px 0; 
     font-size: 0.85rem;
     color: #fff;
-    display : flex;
+    display : grid;
     justify-content: space-between;
     }
     
