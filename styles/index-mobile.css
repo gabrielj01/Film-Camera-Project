@@ -2,8 +2,22 @@
     body {
         background-color: yellow;
     }
-.gallery {
-    content:url(../images-logos/gd-high-resolution-logo-transparent.png);
+.logo a{
     width: 40px;
 }
+    .gallery a {
+        content: url(../logos-mobile/290132_gallery_image_photo_photography_picture_icon.png);
+        width: 40px;
+    }
+
+    .contact a {
+        content: url(../logos-mobile/8666632_phone_icon.png);
+        width: 30px;
+    }
+
+    .info a {
+        content: url(../logos-mobile/11121234_fi_rr_circle_i_icon.png);
+        width: 30px;
+    }
+
 }

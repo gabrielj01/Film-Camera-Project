@@ -19,29 +19,71 @@
     </h1>
     <h2>Gabriel Journo & Dekel Zohar</h2> -->
     <div class="header">
-    <header class="grid">
-        <nav class="ccsticky-nav">
-        <table class="nav">
-            <tr>
-                <th class="logo grid-item"><a href="./index.html"><img src="./images-logos/gd-logo-black.png" alt=""></a></th>
-                <th class="grid-item"><a href="./register.html">Register</a></th>
-                <th class="grid-item"><a href="./login.html">Login</a></th>
-                <th class="grid-item"><a href="./more_info.html">More info</a></th>
-                <th class="grid-item gallery"><a href="./gallery.html">Gallery</a></th>
-                <th class="grid-item"><a href="./contact_us.html">Contact us></a></th>
-            </tr>
-        </table>
-    </nav>
-    <hr>
-    </header>
+        <header class="grid">
+            <nav class="ccsticky-nav">
+                <table class="nav">
+                    <tr>
+                        <th class="logo grid-item"><a href="./index.html"><img src="./images-logos/gd-logo-black.png"
+                                    alt=""></a></th>
+                        <th class="grid-item gallery"><a href="./gallery.html">Gallery</a></th>
+                        <th class="grid-item info"><a href="./more_info.html">More info</a></th>
+                        <th class="grid-item contact"><a href="./contact_us.html">Contact us></a></th>
+                        <th class="grid-item"><a href="./login.html">Login</a></th>
+                        <th class="grid-item"><a href="./register.html">Register</a></th>
+                    </tr>
+                </table>
+            </nav>
+            <hr>
+        </header>
     </div>
     <section id="hero">
-        <!-- <div>
-            <div class="container">
-                <img src="./images/rui-silva-sj-ejxqbevLxG4-unsplash.jpg" alt="Snow">
-                <div class="top-center"><img src="./images-logos/gd-logo-black.png" alt=""></div>
+
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+                <img src="./images-logos/gd-logo-black.png" style="width:35%">
             </div>
-        </div> -->
+
+            <div class="mySlides fade">
+                <img src="./images/pentax-k1000-35mm-slr-student-camera-with-50mm-lens-used-8.png" style="width:35%">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="./images/rui-silva-sj-ejxqbevLxG4-unsplash.jpg" style="width:50%"
+                    style="border-radius: 10px;">
+            </div>
+
+        </div>
+        <br>
+
+        <div style="text-align:center">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+        <script>
+            let slideIndex = 0;
+            showSlides();
+
+            function showSlides() {
+                let i;
+                let slides = document.getElementsByClassName("mySlides");
+                let dots = document.getElementsByClassName("dot");
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                }
+                slideIndex++;
+                if (slideIndex > slides.length) { slideIndex = 1 }
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                }
+                slides[slideIndex - 1].style.display = "block";
+                dots[slideIndex - 1].className += " active";
+                setTimeout(showSlides, 4000); // Change image every 4 seconds
+            }
+        </script>
+    </section>
+    <section id="main">
         <h3>
             Introduction
         </h3>
@@ -57,7 +99,6 @@
         </p>
         <h3>Types of Film</h3>
         <p>
-
             <a href="./blackandwhite.html">Black and White (B&W):</a> Contains silver halide crystals sensitive to all
             wavelengths
             of visible light. <br>
@@ -107,7 +148,7 @@
             <img src="./images/1200px-EBay_logo.svg.webp" alt="link to ebay">
         </a>
     </div>
-    
+
     <footer>
         © 2024. All rights reserved. <br> This site was created by Gabriel And Dekel
     </footer>
