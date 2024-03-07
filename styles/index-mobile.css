@@ -1,6 +1,9 @@
 @media screen and (width < 500px) {
-    body{
+    body {
         background-color: yellow;
     }
-    
+.gallery {
+    content:url(../images-logos/gd-high-resolution-logo-transparent.png);
+    width: 40px;
+}
 }
