@@ -16,8 +16,13 @@ body {
     background-size: cover;
 }
 
-section,
-.bigbox {
+::placeholder{
+    color: bisque;
+    font-size: large;
+    text-align: center;
+}
+
+section, .bigbox {
     position: relative;
     max-width: 400px;
     background: rgb(212, 163, 115);

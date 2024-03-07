@@ -48,12 +48,13 @@
     .textarea{
         color: black;
         background-color: transparent;
-        border: 1px solid bisque;
-
-    }
+        border: none;
+        }
 
     ::placeholder{
         color: bisque;
+        font-size: large;
+        text-align: center;
     }
 
     .textarea::placeholder{
@@ -96,7 +97,8 @@
     top: 20px;
     }
     
-    .forget {margin: 35px 0; 
+    .forget {
+    margin: 35px 0; 
     font-size: 0.85rem;
     color: #fff;
     display : grid;
