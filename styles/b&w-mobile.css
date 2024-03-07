@@ -1,11 +1,30 @@
 @media screen and (width < 500px) {
-    body{
+    body {
         background-color: yellow;
     }
+
     .img-grid {
         display: grid;
-        grid-template-columns: 1fr ;
+        grid-template-columns: 1fr;
         gap: 40px
-    
+    }
+
+    .logo a {
+        width: 200px;
+    }
+
+    .gallery a {
+        content: url(../logos-mobile/290132_gallery_image_photo_photography_picture_icon.png);
+        width: 35px;
+    }
+
+    .contact a {
+        content: url(../logos-mobile/8666632_phone_icon.png);
+        width: 25px;
+    }
+
+    .info a {
+        content: url(../logos-mobile/11121234_fi_rr_circle_i_icon.png);
+        width: 25px;
     }
 }
