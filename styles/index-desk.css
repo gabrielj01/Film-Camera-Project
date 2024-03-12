@@ -13,8 +13,10 @@ body {
         'hero hero hero hero hero'
         'main main main main main'
         'footer footer footer footer footer'
-    ;
+        ;
+
 }
+
 
 .header {
     position: sticky;
