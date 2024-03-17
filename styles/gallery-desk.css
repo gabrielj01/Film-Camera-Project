@@ -40,6 +40,8 @@ table.nav {
 
 .logo img {
   width: 35px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 body {
@@ -132,4 +134,10 @@ body {
 .box:hover .text P {
   opacity: 1;
   transform: translateY(0);
+}
+
+footer {
+  text-align: center;
+  text-decoration: bold;
+  color: black;
 }

@@ -43,9 +43,6 @@ body {
     box-sizing: border-box;
 }
 
-body {
-    font-family: Verdana, sans-serif;
-}
 
 .mySlides {
     display: none;
@@ -136,7 +133,9 @@ img {
 
 }
 
-
+a img {
+    width: 65%;
+}
 .cameras img {
     width: 50%;
 }
