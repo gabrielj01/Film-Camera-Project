@@ -20,4 +20,9 @@
         width: 30px;
     }
 
+    .gridBox {
+        display: grid;
+        grid-template-columns: 1fr;
+      }
+
 }
