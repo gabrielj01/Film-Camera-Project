@@ -95,17 +95,36 @@ body {
 }
 
 .text {
-  width: 100%; 
+  width: 100%;
   position: absolute;
   top: 50%;
-  transform: translate(-50%, -50%); 
+  transform: translate(-50%, -50%);
   text-align: center;
   opacity: 0;
-  transition: opacity 0.4s ease; 
+  transition: opacity 0.4s ease;
   color: black;
 }
 
 
+.color1,
+.color7,
+.color8,
+.color9 {
+  color: white;
+}
+
+.color7 p {
+  color: black;
+}
+
+.color11 p {
+  color: white;
+}
+
+
+.color2 {
+  color: bisque;
+}
 
 .text h2 {
   margin-bottom: 12px;
@@ -114,7 +133,6 @@ body {
 .text p {
   font-size: 14px;
   line-height: 1.5;
-  color: black;
 }
 
 footer {
