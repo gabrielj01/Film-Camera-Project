@@ -47,10 +47,12 @@ h1 {
 
 .inputbox {
     position: relative;
-    margin: 30px 0;
+    margin: 30px auto; 
     max-width: 310px;
     border-bottom: 2px solid var(--color-primary);
-}
+    display: grid;
+    place-items: center;
+    }
 
 .inputbox label {
     position: absolute;
