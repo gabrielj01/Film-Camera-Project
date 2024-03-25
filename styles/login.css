@@ -189,7 +189,14 @@
         margin-right: 6px;
         padding: 4px;
     }
-    
+    .send{
+        text-decoration: none;
+        color: black;
+    }
+    .send:visited{
+        text-decoration: none;
+        color: black;
+    }
     .register img:hover {
         transition: all 0.4s ease;
         box-shadow: 0 6px 6px  var(--black);
