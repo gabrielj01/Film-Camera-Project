@@ -13,6 +13,7 @@ body {
     font-family: "Poppins", sans-serif;
     font-weight: 600;
     font-style: normal;
+    background-color: var(--color-primary);
 }
 
 .header {
@@ -54,6 +55,7 @@ img {
     width: 60%;
     margin-left: auto;
     margin-right: auto;
+
 }
 
 
