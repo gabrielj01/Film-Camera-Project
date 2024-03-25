@@ -35,58 +35,22 @@
     <section id="hero">
 
         <div class="slideshow-container">
-
-            <div class="mySlides fade">
-                <img src="./images-logos/gd-logo-black.png" style="width:35%">
-            </div>
-
-            <div class="mySlides fade">
-                <img src="./images/pentax-k1000-35mm-slr-student-camera-with-50mm-lens-used-8.png" style="width:35%">
-            </div>
-
-            <div class="mySlides fade">
-                <img src="./images/rui-silva-sj-ejxqbevLxG4-unsplash.jpg" style="width:50%"
-                    style="border-radius: 10px;">
-            </div>
-
+            <br>
+            <h1>G&D Films</h1>
+            <br>
+            <img src="./images-logos/gd-logo-black.png" style="width:35%">
         </div>
         <br>
-
-        <div style="text-align:center">
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-        </div>
-        <script>
-            let slideIndex = 0;
-            showSlides();
-
-            function showSlides() {
-                let i;
-                let slides = document.getElementsByClassName("mySlides");
-                let dots = document.getElementsByClassName("dot");
-                for (i = 0; i < slides.length; i++) {
-                    slides[i].style.display = "none";
-                }
-                slideIndex++;
-                if (slideIndex > slides.length) { slideIndex = 1 }
-                for (i = 0; i < dots.length; i++) {
-                    dots[i].className = dots[i].className.replace(" active", "");
-                }
-                slides[slideIndex - 1].style.display = "block";
-                dots[slideIndex - 1].className += " active";
-                setTimeout(showSlides, 4000); // Change image every 4 seconds
-            }
-        </script>
     </section>
     <br><br>
     <section id="main">
-        
+
         <!-- <h3>Types of Films</h3> -->
         <br>
-        <div class="types" >
-            <a href="./blackandwhite.html" class="img-main"><img src="./assets/b&w-index-final.png" alt=""></a> 
-            <a href="./color_negative.html" class="img-main"><img src="./assets/color-negative-index-final.png" alt=""></a>
+        <div class="types">
+            <a href="./blackandwhite.html" class="img-main"><img src="./assets/b&w-index-final.png" alt=""></a>
+            <a href="./color_negative.html" class="img-main"><img src="./assets/color-negative-index-final.png"
+                    alt=""></a>
         </div>
         <br>
 

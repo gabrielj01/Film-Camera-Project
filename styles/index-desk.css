@@ -40,7 +40,9 @@ body {
     grid-area: hero;
     text-align: center;
 }
-
+h1{
+    font-size: 36px;
+}
 * {
     box-sizing: border-box;
 }
