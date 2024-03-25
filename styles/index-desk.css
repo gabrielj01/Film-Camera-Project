@@ -127,6 +127,14 @@ h3 {
     grid-template-columns: 1fr 1fr;
 }
 
+
+.link{
+    text-decoration: underline;
+
+}
+
+
+
 .infoT {
     border: 2px dashed black;
     gap: 2px;
