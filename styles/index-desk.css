@@ -154,7 +154,7 @@ p {
 }
 .cameras{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 img {
     display: block;
@@ -171,8 +171,6 @@ a img {
 .cameras img {
     width: 50%;
 }
-
-
 
 .types {
     display: grid;
