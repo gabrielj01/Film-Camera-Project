@@ -20,4 +20,12 @@
         width: 30px;
     }
 
+    .topup-button a {
+        font-size: 15px; 
+        padding: 10px 20px; 
+        width: auto;
+        display: inline-block; 
+      }
+      
+
 }
