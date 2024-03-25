@@ -40,9 +40,11 @@ body {
     grid-area: hero;
     text-align: center;
 }
-h1{
+
+h1 {
     font-size: 36px;
 }
+
 * {
     box-sizing: border-box;
 }
@@ -112,12 +114,34 @@ img {
 
 
 h2 {
-    text-align: left;
-    text-decoration: underline;
+    text-align: center;
 }
 
 h3 {
     text-align: center;
+}
+
+.infoG {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.infoT {
+    border: 2px dashed black;
+    gap: 2px;
+    border-radius: 5%;
+}
+
+h3 a {
+    color: rgb(87, 87, 87);
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+h3 a:visited {}
+
+h3 a:hover {
+    color: black;
 }
 
 h4 {
@@ -125,10 +149,13 @@ h4 {
 }
 
 p {
-    text-align: center;
+    text-align: left;
     font-size: 16px;
 }
-
+.cameras{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
 img {
     display: block;
     margin-left: auto;
@@ -140,6 +167,7 @@ img {
 a img {
     width: 65%;
 }
+
 .cameras img {
     width: 50%;
 }
