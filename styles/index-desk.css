@@ -7,9 +7,7 @@ body {
     background-color: var(--color-primary);
 }
 
-/* .grid {
-    display: grid;
-} */
+
 .body {
     grid-template-areas:
         'header header header header header'
