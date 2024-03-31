@@ -5,6 +5,7 @@ body {
     font-family: "Poppins", sans-serif;
     font-weight: 600;
     font-style: normal;
+    background-color: var(--color-primary);
 }
 
 .body {
@@ -98,7 +99,7 @@ img {
 
 .gallery1 {
     color: var(--color-primary);
-    text-shadow: 3px 3px 3px rgb(208, 13, 13);
+    text-shadow: 3px 3px 3px var(--black);
 
 }
 
