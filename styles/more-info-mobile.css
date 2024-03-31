@@ -18,4 +18,10 @@
         width: 30px;
     }
 
+    .gridM {
+        display: grid;
+        grid-template-columns: 1fr;
+        height: 100vh;
+    }
+
 }
