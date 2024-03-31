@@ -165,6 +165,18 @@ p {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
+.canon-pic{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.stylus-pic{
+    margin-top: auto;
+    margin-bottom: 1vh;
+}
+.stylus-pic1{
+    margin-top: auto;
+    margin-bottom: auto;
+}
 img {
     display: block;
     margin-left: auto;

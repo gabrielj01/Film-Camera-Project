@@ -138,8 +138,8 @@ body {
 }
 
 footer {
-  text-align: center ;
-  text-decoration: bold;
+  text-align: center;
+  font-weight: 600;
   color: black;
 }
 
