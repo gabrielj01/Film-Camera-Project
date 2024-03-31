@@ -1,8 +1,12 @@
 @import './var.css';
 
 body {
-    font-family:'poppins', Arial, Helvetica, sans-serif;
+    font-family: 'poppins', Arial, Helvetica, sans-serif;
     background-color: var(--color-primary);
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 .intro {
@@ -36,7 +40,7 @@ ol {
 
 li {
     list-style: none;
-    text-align: center;    
+    text-align: center;
 }
 
 .list {
@@ -44,7 +48,7 @@ li {
     font-weight: bold;
 }
 
-footer{
+footer {
     text-align: center;
     font-style: bold;
 }
@@ -53,8 +57,8 @@ footer{
 #header {
     grid-area: header;
 }
-   
-img{
+
+img {
     width: 5%;
     display: block;
     margin-right: auto;
@@ -72,6 +76,7 @@ img{
 .logo img {
     width: 35px;
 }
+
 .logo {
     width: 10%;
 }
@@ -102,6 +107,31 @@ table.nav,
 table.nav {
     width: 100%;
 }
- footer{
+
+.btn {
+    bottom: 10px;
+    right: 10px;
+    z-index: 99;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    background-color: gray;
+    color: darkgrey;
+    cursor: pointer;
+    padding: 13px;
+    border-radius: 5px;
+    opacity: 50%;
+
+}
+
+.btn:hover {
+    background-color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+footer {
     font-weight: 600;
- }
+}
