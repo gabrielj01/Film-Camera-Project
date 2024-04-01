@@ -23,5 +23,9 @@
         grid-template-columns: 1fr;
         height: 100vh;
     }
-
+    
+    .wikiT,.wikiTT,.amazonT,.amazonTT{
+        content-visibility: hidden;
+    }
+    
 }
