@@ -165,6 +165,22 @@ a {
   text-decoration: none;
 }
 
+
+@media (hover: none) {
+  .box .image::before {
+    border-color: transparent;
+  }
+
+  .box .image:hover::before {
+    border-color: transparent;
+  }
+
+  .box .image .text {
+    opacity: 1; 
+    transform: translateY(0);
+  }
+}
+
 footer {
   text-align: center;
   font-weight: 600;
