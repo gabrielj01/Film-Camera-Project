@@ -7,7 +7,9 @@ h3 {
 
 }
 
-
+.intro{
+    text-align: center;
+}
 
 body {
     font-family: "Poppins", sans-serif;
