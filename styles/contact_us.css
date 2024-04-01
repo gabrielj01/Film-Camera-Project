@@ -19,6 +19,7 @@
     
     }
 
+    
     p {
         color: var(--black);
         text-align: center;
@@ -27,112 +28,112 @@
     }
     
     section, .bigbox{
-    position: relative; 
-    max-width: 400px;
-    background: rgb(212,163,115);
-    background: radial-gradient(circle, rgba(212,163,115,1) 0%, rgba(255,222,149,1) 100%);    border: 2px solid rgba(255, 255, 255, 0.5);
-    border-radius: 20px;
-    backdrop-filter: blur (550px);
-    display: grid;
-    justify-content: center; 
-    align-items: center;
-    padding: 2rem 3rem;
-    border: thick solid var(--color-primary);
+        position: relative; 
+        max-width: 400px;
+        background: rgb(212,163,115);
+        background: radial-gradient(circle, rgba(212,163,115,1) 0%, rgba(255,222,149,1) 100%);    border: 2px solid rgba(255, 255, 255, 0.5);
+        border-radius: 20px;
+        backdrop-filter: blur (550px);
+        display: grid;
+        justify-content: center; 
+        align-items: center;
+        padding: 2rem 3rem;
+        border: thick solid var(--color-primary);
     }
     
     h1{
-    font-size: 2rem;
-    color: var(--black);
-    text-align: center;
+        font-size: 2rem;
+        color: var(--black);
+        text-align: center;
     }
     
     .inputbox ion-icon {
-    position: relative;
-    margin: 30px auto; 
-    max-width: 310px;
-    border-bottom: 2px solid var(--color-primary);
-    display: grid;
-    place-items: center;
-    top: 50%;
-    transform: translateY(-50%);
+        position: relative;
+        margin: 30px auto; 
+        max-width: 310px;
+        border-bottom: 2px solid var(--color-primary);
+        display: grid;
+        place-items: center;
+        top: 50%;
+        transform: translateY(-50%);
     }
-
     
-
-   
+    
+    
+    
     .textarea{
         color: var(--black);
         background-color: transparent;
         border: none;
-        }
-
+    }
+    
     ::placeholder{
         color: var(--color-primary);
         font-size: large;
         text-align: center;
     }
-
+    
     .textarea::placeholder{
         font-size: large;
         text-align: center; 
         line-height: 7;
     }
-
+    
     .inputbox label{
-    position: absolute;
-    top : 50%;
-    left : 5px;
-    transform: translateY(-50%);
-    color: color #fff;
-    font-size: 1rem; 
-    pointer-events: none;
-    transition: all 0.8s ease-out;
+        position: absolute;
+        top : 50%;
+        left : 5px;
+        transform: translateY(-50%);
+        color: color #fff;
+        font-size: 1rem; 
+        pointer-events: none;
+        transition: all 0.8s ease-out;
     }
     
     Input:focus label, input:valid label{
-    Top : -5px
+        Top : -5px
     }
     
     .inputbox input { 
-    width: 100%; 
-    height: 60px;
-    background: transparent;
-    border: var(--black) 1px; 
-    outline: none;
-    font-size: 1rem;
-    padding: 0 35px 0 5px; 
-    color: var(--black);
+        width: 100%; 
+        height: 60px;
+        background: transparent;
+        border: var(--black) 1px; 
+        outline: none;
+        font-size: 1rem;
+        padding: 0 35px 0 5px; 
+        color: var(--black);
     }
     
     .inputbox { 
-    position: relative;
-    right: 8px;
-    color: #fff;
-    font-size: 1.2rem; 
-    top: 20px;
+        position: relative;
+        right: 8px;
+        color: #fff;
+        font-size: 1.2rem; 
+        top: 20px;
     }
     
     .forget {
-    margin: 35px 0; 
-    font-size: 0.85rem;
-    color: #fff;
-    display : grid;
-    justify-content: space-between;
+        margin: 35px 0; 
+        font-size: 0.85rem;
+        color: #fff;
+        display : grid;
+        justify-content: space-between;
     }
     
     .forget label { 
-    display: grid;
-    align-items: center;
+        display: grid;
+        align-items: center;
     }
     
     .forget label input {
-    margin-right: 3px;
+        margin-right: 3px;
     }
     
     .forget a {
-    color: var(--black);
-    text-decoration: none; 
-    font-weight: 600;
+        color: var(--black);
+        text-decoration: none; 
+        font-weight: 600;
     }
     
     .forget a:hover {
@@ -140,54 +141,54 @@
     }
     
     .button{
-    width: 100%; 
-    height: 40px; 
-    border-radius: 40px; 
-    background-color: var(--color-primary);
-    border: none; 
-    outline: none;
-    cursor: pointer; 
-    font-size: 1rem; 
-    font-weight: 600;
-    transition: all 0.4s ease;
-    text-align: center;
-    text-decoration: none;
-    line-height: 40px;
-    max-width: 200px;
-    margin: 0 auto;
+        width: 100%; 
+        height: 40px; 
+        border-radius: 40px; 
+        background-color: var(--color-primary);
+        border: none; 
+        outline: none;
+        cursor: pointer; 
+        font-size: 1rem; 
+        font-weight: 600;
+        transition: all 0.4s ease;
+        text-align: center;
+        text-decoration: none;
+        line-height: 40px;
+        max-width: 200px;
+        margin: 0 auto;
     }
-
+    
     .inputbox input[type="email"], 
     .inputbox input[type="tel"],
     .textarea textarea {
-    text-align: center; 
+        text-align: center; 
     }
     
-
-
+    
+    
     
     .button:hover {
-    background-color: var(--color-primary);
-    box-shadow: 0 3px 3px 3px grey;
+        background-color: var(--color-primary);
+        box-shadow: 0 3px 3px 3px grey;
     }
     
     .register {
-    font-size: 0.9rem;
-    color: color #fff;
-    text-align: center;
-    margin : 25px 0 10px;
+        font-size: 0.9rem;
+        color: color #fff;
+        text-align: center;
+        margin : 25px 0 10px;
     }
     
     .register p a {
-    text-decoration: underline;
-    color: var(--black);
-    font-weight: 600;
+        text-decoration: underline;
+        color: var(--black);
+        font-weight: 600;
     }
     
     .register p a:hover {
-    Text-decoration: underline;
+        Text-decoration: underline;
     }
-
+    
     ::selection{
         color: var(--color-primary);
         background-color: grey;
@@ -212,3 +213,20 @@
         font-style: bold;
     }
     
+    @media screen and (max-width: 768px) {
+        .bigbox {
+          text-align: center; /* Centrer le contenu sur les appareils mobiles */
+        }
+      
+        .button {
+          height: 60px; /* Augmenter la hauteur du bouton sur les appareils mobiles */
+          width: 80%; /* Augmenter la largeur du bouton sur les appareils mobiles */
+          margin: 0 auto; /* Centrer le bouton */
+        }
+      
+        .inputbox input[type="email"],
+        .inputbox input[type="tel"],
+        .textarea textarea {
+          text-align: center; /* Centrer le placeholder dans les zones de texte */
+        }
+      }
