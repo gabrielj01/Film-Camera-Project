@@ -6,9 +6,7 @@ body {
     font-style: normal;
 }
 
-/* .grid {
-    display: grid;
-} */
+
 .body {
     grid-template-areas:
         'header header header header header'

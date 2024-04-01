@@ -47,7 +47,6 @@ img {
 
 .grid .more_info {
     display: grid;
-    /*row-gap: 10px*/
     gap: 10px;
     width: 100%;
     width: 5%;
@@ -87,7 +86,6 @@ img {
 
 table.nav,
 .nav th {
-    /* border: 1px solid var(--black); */
     border-collapse: separate;
     text-align: center;
 }
