@@ -213,7 +213,7 @@
         font-style: bold;
     }
     
-    @media screen and (max-width: 768px) {
+    @media screen and (width < 500px) {
         .bigbox {
           text-align: center; /* Centrer le contenu sur les appareils mobiles */
         }
