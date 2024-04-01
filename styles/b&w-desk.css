@@ -7,9 +7,11 @@ body {
     font-style: normal;
     background-color: var(--color-primary);
 }
+
 html{
     scroll-behavior: smooth;
 }
+
 .body {
     grid-template-areas:
         'header header header header header'
@@ -128,7 +130,7 @@ ul {
 
 #hero video {
     width: 65%;
-    border-radius: 2%;
+    border-radius: 5%;
     margin-inline: auto;
 
 }
