@@ -5,24 +5,5 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
       }
-
-<<<<<<< HEAD
-=======
-
-      @media (hover: none) {
-        .box .image::before {
-          border-color: transparent;
-        }
-      
-        .box .image:hover::before {
-          border-color: transparent;
-        }
-      
-        .box .image .text {
-          opacity: 1; 
-          transform: translateY(0);
-        }
-      }
->>>>>>> parent of 0bc20ad (.)
       
 }
