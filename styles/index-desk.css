@@ -122,6 +122,9 @@ h3 {
 .infoG {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-left: 10px ;
+    margin-right: 10px;
 }
 
 
@@ -130,7 +133,9 @@ h3 {
 
 }
 
-
+.infoG p{
+    padding: 5px;
+}
 
 .infoT {
     border: 2px dashed black;

@@ -5,6 +5,7 @@ body {
     background-color: var(--color-primary);
     font-weight: 600;
 }
+
 html{
     scroll-behavior: smooth;
 }
