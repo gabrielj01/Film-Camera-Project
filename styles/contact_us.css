@@ -104,6 +104,13 @@
         padding: 0 35px 0 5px; 
         color: var(--black);
     }
+
+    .inputbox input,
+    .textarea textarea {
+    border: none;
+    border-bottom: 2px solid bisque;
+    }
+
     
     .inputbox { 
         position: relative;
